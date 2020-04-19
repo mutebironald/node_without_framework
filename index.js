@@ -7,6 +7,10 @@ const config = require('./lib/config');
 const handlers = require('./lib/handlers');
 const helpers = require('./lib/helpers')
 
+//this is a twilio sms sender you can get rid of, have valid credentials to send msgs
+// helpers.sendTwilioSMS("+256771654397", "Hello Roninho", function(err){
+//     console.log("Error in sending messages "+ err)
+// })
 
 
 //Instantiating the http server
